@@ -14,7 +14,9 @@
 #read, evaluate, print, load
 #on consol type python3
 
-import hashlib
-import pandas   #pip install required
+# import hashlib
+# import pandas   #pip install required
 
 
+# 12  this 12 added from pring function in first program
+#this is from first program
