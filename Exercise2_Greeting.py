@@ -1,12 +1,12 @@
 import time;
 
-timestamp =int(time.strftime('%H'))
+hour =int(time.strftime('%H'))
 
-if timestamp >4 and timestamp<12:
+if hour >0 and hour<12:
     print("Good Morning")
-elif timestamp == 12:
+elif hour == 12:
     print("Good AfterNoon")
-elif timestamp >12 and timestamp<21:
+elif hour >12 and hour<17:
     print("Good Evening")
 else:
     print("Good Night")
