@@ -68,3 +68,23 @@ print(fibbonacci(5))
 5  --day30 calling --later we will deal with this issue
 5  --this file calling
 """
+
+"""
+Whenever i am running this program a __pycache__ file
+is being created why?
+---------------------------------------------------\
+
+The creation of __pycache__ directories is a normal 
+behavior in Python and is related to the process of 
+storing bytecode files. Here's what's happening in 
+your code and why the __pycache__ directory is being created:
+
+Importing the math Module:
+When you run import math, Python imports the 
+math module from the standard library. 
+During this process, Python creates a bytecode 
+version of the module and stores it in the 
+__pycache__ directory. This is done to improve 
+the import performance in subsequent runs.
+
+"""
