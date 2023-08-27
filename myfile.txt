@@ -1,3 +1,7 @@
 This will overide existing contents and reflect inthe myfile.txt
 THis will appended in file without overiding the exisiting
 Hello I am New
+
+Hello world
+How are you
+I am Aditya
