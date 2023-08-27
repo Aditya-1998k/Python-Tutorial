@@ -41,8 +41,16 @@ There are so many python class for exception
 """
 
 """
-Defining Exception
+Defining Exception for your nee
+----------------------------
+Here i want to raise datanotfound error
+when try will not get the expected num2
+-------------------------
+
+class CustomExceptionName(Exception):
+    pass
 """
+
 class DataNotFoundError(Exception):
     pass
 
