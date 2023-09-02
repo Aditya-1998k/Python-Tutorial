@@ -1,7 +1,5 @@
 import requests
-
-url ="https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=786926035391432c9cecb97d91b4f1ee"
-
+import json
 
 def get_news(api_key, source):
     base_url = 'https://newsapi.org/v2/top-headlines'
@@ -12,7 +10,7 @@ def get_news(api_key, source):
     response = requests.get(base_url, params=params)
 
     if response.status_code ==200:
-        newsData = response.json()
+        newsData = json.loads(response.text)
         articles = newsData.get('articles')
 
         if articles:
