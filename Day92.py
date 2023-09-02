@@ -16,6 +16,9 @@ memoization -- retrieved the data without
 repeating the computation
 
 cache value store only for single code execution
+Use Only when -- You know your function runs for
+few value or single value multiple time
+because it will take memory
 """
 import time
 from functools import lru_cache
